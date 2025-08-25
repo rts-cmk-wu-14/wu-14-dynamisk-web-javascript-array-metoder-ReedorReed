@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	console.log("Opgave 1", result.sort());
 
 	// Opgave 2
-	// Tilføj katten "Sniffles" til catsArray. 
+	// Tilføj katten "Sniffles" til catsArray.
 	// Udskriv arrayet i konsollen.
 	// console.log("Opgave 2", ...)
 
@@ -68,6 +68,8 @@ document.addEventListener('DOMContentLoaded', function () {
 	// (Sådan her: BarneyMollyBaxter...)
 	// Udskriv strengen konsollen:
 	// console.log("Opgave 6", ...)
+	
+	
 
 	//     Opgave 7a
 	// Find ud af hvilket index "Mango" har i fruitsArray.
