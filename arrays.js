@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	// --- Løs opgaverne herunder ---
 	//opgave 1: Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle de tal som er større end 20.
 	let result = numbersArray.filter((num) => num > 20);
-	console.log('Opgave 1: ', result.sort());
+	console.log('Opgave 1', result.sort());
 
 	// Opgave 2
 	// Tilføj katten "Sniffles" til catsArray.
@@ -44,12 +44,18 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Check om der i dogsArray er en hund som hedder "Trixie".
 	// Udskriv "true" eller "false" i konsollen afhængig af svaret.
 	// console.log("Opgave 3a", ...)
-	
+	let doesItIncludeTrixie = dogsArray.includes('Trixie');
+
+	console.log('Opgave 3a: ', doesItIncludeTrixie);
 
 	// Opgave 3b
 	// Check om der i dogsArray er en hund som hedder "Baxter".
 	// Udskriv "true" eller "false" i konsollen afhængig af svaret.
 	// console.log("Opgave 3b", ...)
+
+	let doesItIncludeBaxter = dogsArray.includes('Baxter');
+
+	console.log('Opgave 3b: ', doesItIncludeBaxter);
 
 	//     Opgave 4a
 	// Check om der i catsArray er en kat som hedder "Bagheera".
