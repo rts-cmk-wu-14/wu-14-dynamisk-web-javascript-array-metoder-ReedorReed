@@ -30,11 +30,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	// --- Løs opgaverne herunder ---
 	//opgave 1: Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle de tal som er større end 20.
-	let result = numbersArray.filter((num) => num > 20);
-	console.log("Opgave 1", result.sort());
+	// let result = numbersArray.filter((num) => num > 20);
+	// console.log("Opgave 1", result.sort());
 
 	// Opgave 2
-	// Tilføj katten "Sniffles" til catsArray. 
+	// Tilføj katten "Sniffles" til catsArray.
 	// Udskriv arrayet i konsollen.
 	// console.log("Opgave 2", ...)
 
@@ -72,6 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	//     Opgave 7a
 	// Find ud af hvilket index "Mango" har i fruitsArray.
 	// Udskriv indexet i konsollen.
+	
 
 	// Opgave 7b
 	// Find ud af hvilket index "Blåbær" har i fruitsArray.
