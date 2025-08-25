@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	// --- Løs opgaverne herunder ---
 	//opgave 1: Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle de tal som er større end 20.
-	let result = numbersArray.filter((num) => num > 20);
-	console.log("Opgave 1", result.sort());
+	// let result = numbersArray.filter((num) => num > 20);
+	// console.log("Opgave 1", result.sort());
 
 	// Opgave 2
 	// Tilføj katten "Sniffles" til catsArray.
@@ -62,8 +62,9 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
 	// Udskriv det nye array i konsollen:
 	// console.log("Opgave 5", ...)
-	
-	
+
+	const numbersArrayTimesThree = numbersArray.map((num) => num * 3);
+	console.log('Opgave 5: ', numbersArrayTimesThree);
 
 	//     Opgave 6
 	// Udskriv alle hundene i dogsArray i én lang streng.
