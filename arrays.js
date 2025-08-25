@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	console.log("Opgave 1", result.sort());
 
 	// Opgave 2
-	// Tilføj katten "Sniffles" til catsArray. 
+	// Tilføj katten "Sniffles" til catsArray.
 	// Udskriv arrayet i konsollen.
 	// console.log("Opgave 2", ...)
 
@@ -62,6 +62,8 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
 	// Udskriv det nye array i konsollen:
 	// console.log("Opgave 5", ...)
+	
+	
 
 	//     Opgave 6
 	// Udskriv alle hundene i dogsArray i én lang streng.
