@@ -95,10 +95,15 @@ document.addEventListener('DOMContentLoaded', function () {
 	//     Opgave 7a
 	// Find ud af hvilket index "Mango" har i fruitsArray.
 	// Udskriv indexet i konsollen.
+	const whatIndexDoesMangoHave = fruitsArray.indexOf('Mango');
+	console.log("Opgave 7a: ", whatIndexDoesMangoHave);
 
 	// Opgave 7b
 	// Find ud af hvilket index "Blåbær" har i fruitsArray.
 	// Udskriv indexet i konsollen.
+
+	const whatIndexDoesBlaabaerHave = fruitsArray.indexOf('Blåbær')
+	console.log("Opgave 7b: ", whatIndexDoesBlaabaerHave);
 
 	// Opgave 8
 	// Lad os forestille os, at dogsArray er en liste af tilmeldte hunde til en udstilling.
