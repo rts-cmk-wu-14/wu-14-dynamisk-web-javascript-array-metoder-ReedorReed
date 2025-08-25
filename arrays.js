@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	console.log("Opgave 1", result.sort());
 
 	// Opgave 2
-	// Tilføj katten "Sniffles" til catsArray. 
+	// Tilføj katten "Sniffles" til catsArray.
 	// Udskriv arrayet i konsollen.
 	// console.log("Opgave 2", ...)
 
@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Check om der i dogsArray er en hund som hedder "Trixie".
 	// Udskriv "true" eller "false" i konsollen afhængig af svaret.
 	// console.log("Opgave 3a", ...)
+	
 
 	// Opgave 3b
 	// Check om der i dogsArray er en hund som hedder "Baxter".
